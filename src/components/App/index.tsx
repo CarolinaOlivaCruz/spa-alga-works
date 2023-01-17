@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/globalStyles"
 import "./styles.css";
 
 export const App = () => {
