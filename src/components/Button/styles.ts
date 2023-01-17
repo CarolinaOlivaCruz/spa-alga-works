@@ -6,4 +6,9 @@ export const ButtonStyled = styled.button`
   border-radius: 4px;
   color: #09f;
   background-color: #ffff;
+
+  @media(min-width: 700px) {
+    padding: 10px 40px;
+    font-size: 1.2rem;
+  }
 `;
