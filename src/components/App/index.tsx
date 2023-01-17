@@ -1,13 +1,11 @@
 import React from "react";
 import "../../styles/globalStyles"
-import "./styles.css";
+import { Header } from "../Header";
 
 export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Olá</p>
-      </header>
+    <div>
+      <Header />
     </div>
   );
 }
