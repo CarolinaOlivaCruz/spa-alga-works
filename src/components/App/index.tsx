@@ -9,7 +9,7 @@ export const App = () => {
     <div>
       <Header />
       <Container>
-      <Table />
+        <Table />
       </Container>
     </div>
   );

@@ -21,15 +21,15 @@ export const InputStyled = styled.div`
       border-radius: 0;
       height: 30px;
       color: #222;
-    }
 
-    input:focus {
-      border-color: #09f;
-      outline: none;
-    }
+      &:focus {
+        border-color: #09f;
+        outline: none;
+      }
 
-    input::placeholder {
-      color: #ccc;
+      &::placeholder {
+        color: #ccc;
+      }
     }
   }
 `;
