@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonStyled } from "./styles";
 
-declare interface iButtonProps {
+interface iButtonProps {
   content?: string;
   onClick?: () => void;
   children: JSX.Element;
